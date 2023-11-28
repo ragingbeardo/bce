@@ -1,0 +1,207 @@
+{
+    "global":
+    {
+        "disableEverything": false,
+        "showMeTheLogs": false
+    },
+    "storage":
+    {
+        "case":
+        {
+            "enable": false,
+            "ammoCaseRows": 7,
+            "ammoCaseColumns": 7,
+            "docCaseRows": 7,
+            "docCaseColumns": 7,
+            "dogtagCaseRows": 7,
+            "dogtagCaseColumns": 7,
+            "gingyKeychainRows": 7,
+            "gingyKeychainColumns": 7,
+            "grenadeCaseRows": 7,
+            "grenadeCaseColumns": 7,
+            "injectorCaseRows": 7,
+            "injectorCaseColumns": 7,
+            "keyToolRows": 7,
+            "keyToolColumns": 7,
+            "luckyScavCaseRows": 7,
+            "luckyScavCaseColumns": 7,
+            "medicineCaseRows": 7,
+            "medicineCaseColumns": 7,
+            "mrHolodilnickRows": 7,
+            "mrHolodilnickColumns": 7,
+            "moneyCaseRows": 7,
+            "moneyCaseColumns": 7,
+            "siccCaseRows": 7,
+            "siccCaseColumns": 7,
+            "simpleWalletRows": 7,
+            "simpleWalletColumns": 7,
+            "thiccItemCaseRows": 7,
+            "thiccItemCaseColumns": 7,
+            "thiccWeaponCaseRows": 7,
+            "thiccWeaponCaseColumns": 7,
+            "wzWalletRows": 7,
+            "wzWalletColumns": 7
+        },
+        "secure":
+        {
+            "enable": false,
+            "removeFilters": false,
+            "alphaRows": 2,
+            "alphaColumns": 2,
+            "betaRows": 2,
+            "betalphaColumns": 2,
+            "epsilonRows": 2,
+            "epsilonColumns": 2,
+            "gammaRows": 2,
+            "gammaColumns": 2,
+            "kappaRows": 2,
+            "kappaColumns": 2
+        }
+    },
+    "hideout":
+    {
+        "production": 
+        {
+            "enabled": false,
+            "productionTimeMultiplier": 1,
+            "minutesForBTC": 2416.6666666667,
+            "btcLimit": 3,
+            "waterFilterRate": 66,
+            "turnOffDSPTransmitterFuelRequirement": false
+        },
+        "scavCase": 
+        {
+            "enabled": false,
+            "returnTimeMultiplier": 1,
+            "roubleCostMultiplier": 1
+        },
+        "areas":
+        {
+            "enabled": false,
+            "noConstructionRequirements": false,
+            "constructionTimeMultiplier": 1
+        },
+        "misc":
+        {
+            "enabled": false,
+            "generatorSpeedWithoutFuel": 0.07,
+            "generatorFuelFlowRate": 0.0013194444444444,
+            "airFilterUnitFlowRate": 0.0047222222222222
+        }
+    },
+    "player":
+    {
+        "xp":
+        {
+            "enable": false,
+            "skillMultiplier": 1,
+            "weaponMultiplier": 1
+        }
+    },
+    "scav":
+    {
+        "rep":
+        {
+            "enabled": false,
+            "friendlyScavKill": -0.04,
+            "bossScavKill": -0.2,
+            "followerScavKill": -0.05,
+            "pmcScavKill": 0.02,
+            "carCoopExfilStanding": 0.25
+        },
+        "hostile":
+        {
+            "enabled": false,
+            "scav": "enum (friendly/hostile/default)",
+            "boss": "enum (friendly/hostile/default)"
+        }
+    },
+    "trader":
+    {
+        "level4Traders": false,
+        "stock":
+        {
+            "enable": false,
+            "restockTimer": 60,
+            "noPurchaseLimit": false,
+            "minDurabilityToSell": 60
+        },
+        "clothes":
+        {
+            "enable": false,
+            "freeClothes": false,
+            "allClothesAvailable": false
+        },
+        "repair":
+        {
+            "enable": false,
+            "costMultiplier": 1.00,
+            "noRandomDmg": false,
+            "noWepDmg": false,
+            "noArmorDmg": false
+        },
+        "insurance":
+        {
+            "enable": false,
+            "prapor":
+            {
+                "costMultiplier": 0.16,
+                "returnChancePercentage": 25,
+                "hoursUntilReturnMin": 12,
+                "hoursUntilReturnMax": 24
+            },
+            "therapist":
+            {
+                "costMultiplier": 0.25,
+                "returnChancePercentage": 50,
+                "hoursUntilReturnMin": 24,
+                "hoursUntilReturnMax": 36
+            }
+        }
+    },
+    "raid":
+    {
+        "extraction":
+        {
+            "enable": false,
+            "paidCoopExtract":
+            {
+                "enabled": false,
+                "extractPrice": 10000
+            },
+            "carExtractPrice": 5000,
+            "removeBackpackCheck": false,
+            "removeArmorVestCheck": false,
+            "rngExtractsAlwaysOn": false
+        }
+    },
+    "health":
+    {
+        "pmc":
+        {
+            "head": 35,
+            "thorax": 85,
+            "stomach": 70,
+            "lArm": 60,
+            "rArm": 60,
+            "lLeg": 65,
+            "rLeg": 65
+        },
+        "scav":
+        {
+            "head": 35,
+            "thorax": 85,
+            "stomach": 70,
+            "lArm": 60,
+            "rArm": 60,
+            "lLeg": 65,
+            "rLeg": 65
+        }
+    },
+    "events":
+    {
+        "enabled": false,
+        "halloweenEnabled": false,
+        "christmasEnabled": false
+    }
+}
