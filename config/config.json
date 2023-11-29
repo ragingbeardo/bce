@@ -1,7 +1,7 @@
 {
     "global":
     {
-        "disableEverything": false,
+        "disableMod": false,
         "enableDebugMode": false
     },
     "storage":
