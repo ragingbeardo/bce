@@ -2,7 +2,7 @@
     "global":
     {
         "disableEverything": false,
-        "showMeTheLogs": false
+        "enableDebugMode": false
     },
     "storage":
     {
@@ -81,7 +81,7 @@
             "noConstructionRequirements": false,
             "constructionTimeMultiplier": 1
         },
-        "misc":
+        "miscModifier":
         {
             "enabled": false,
             "generatorSpeedWithoutFuel": 0.07,
@@ -93,10 +93,11 @@
     {
         "health":
         {
+            "enable": false,
             "unlimitedStamina": false,
             "noFallDamage": false,
-            "starvationRate": 0.5,
-            "dehydrationRate": 0.5,
+            "starvationRate": 1,
+            "dehydrationRate": 1,
             "maxEnergy": 100,
             "maxHydration": 100,
             "maxStamina": 100,
@@ -138,20 +139,21 @@
             "pmcScavKill": 0.02,
             "carCoopExfilStanding": 0.25
         },
-        "hostile":
+        "hostility":
         {
             "enabled": false,
-            "scav": "enum (friendly/hostile/default)",
-            "boss": "enum (friendly/hostile/default)"
+            "scav": "default",
+            "boss": "default"
         }
     },
     "items":{
-        "maxMoneyStack": 500000,
         "modifier": {
+            "enabled": false,
             "weaponMalfunctionChance": 1.0,
             "weaponMisfireChance": 1.0,
             "magPackingSpeedMultiplier": 1.0,
-            "examineTimeMultiplier": 1.0
+            "examineTimeMultiplier": 1.0,
+            "maxMoneyStack": 500000
         }
     },
     "trader":
@@ -199,6 +201,8 @@
     },
     "raid":
     {
+        "freeLabEntry": false,
+        "alwaysSurvive": false,
         "extraction":
         {
             "enable": false,
