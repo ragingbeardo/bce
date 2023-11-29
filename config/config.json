@@ -44,8 +44,8 @@
         },
         "secure":
         {
-            "enable": false,
             "removeFilters": false,
+            "sizeChangeEnabled": false,
             "alphaRows": 2,
             "alphaColumns": 2,
             "betaRows": 2,
@@ -91,15 +91,44 @@
     },
     "player":
     {
+        "health":
+        {
+            "unlimitedStamina": false,
+            "noFallDamage": false,
+            "starvationRate": 0.5,
+            "dehydrationRate": 0.5,
+            "maxEnergy": 100,
+            "maxHydration": 100,
+            "maxStamina": 100,
+            "enableHitPointModifier": false,
+            "head": 35,
+            "thorax": 85,
+            "stomach": 70,
+            "lArm": 60,
+            "rArm": 60,
+            "lLeg": 65,
+            "rLeg": 65
+        },
         "xp":
         {
             "enable": false,
             "skillMultiplier": 1,
-            "weaponMultiplier": 1
+            "weaponSkillMultiplier": 1
         }
     },
     "scav":
     {
+        "health":
+        {
+            "enable": false,
+            "head": 35,
+            "thorax": 85,
+            "stomach": 70,
+            "lArm": 60,
+            "rArm": 60,
+            "lLeg": 65,
+            "rLeg": 65
+        },
         "rep":
         {
             "enabled": false,
@@ -114,6 +143,15 @@
             "enabled": false,
             "scav": "enum (friendly/hostile/default)",
             "boss": "enum (friendly/hostile/default)"
+        }
+    },
+    "items":{
+        "maxMoneyStack": 500000,
+        "modifier": {
+            "weaponMalfunctionChance": 1.0,
+            "weaponMisfireChance": 1.0,
+            "magPackingSpeedMultiplier": 1.0,
+            "examineTimeMultiplier": 1.0
         }
     },
     "trader":
@@ -164,6 +202,7 @@
         "extraction":
         {
             "enable": false,
+            "ezCoopExtract": false,
             "paidCoopExtract":
             {
                 "enabled": false,
@@ -173,29 +212,6 @@
             "removeBackpackCheck": false,
             "removeArmorVestCheck": false,
             "rngExtractsAlwaysOn": false
-        }
-    },
-    "health":
-    {
-        "pmc":
-        {
-            "head": 35,
-            "thorax": 85,
-            "stomach": 70,
-            "lArm": 60,
-            "rArm": 60,
-            "lLeg": 65,
-            "rLeg": 65
-        },
-        "scav":
-        {
-            "head": 35,
-            "thorax": 85,
-            "stomach": 70,
-            "lArm": 60,
-            "rArm": 60,
-            "lLeg": 65,
-            "rLeg": 65
         }
     },
     "events":
