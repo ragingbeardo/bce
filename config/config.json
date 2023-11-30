@@ -40,7 +40,23 @@
             "thiccWeaponCaseRows": 7,
             "thiccWeaponCaseColumns": 7,
             "wzWalletRows": 7,
-            "wzWalletColumns": 7
+            "wzWalletColumns": 7,
+            "ammoCaseRemoveFilters": false,
+            "docCaseRemoveFilters": false,
+            "dogtagCaseRemoveFilters": false,
+            "gingyKeychainRemoveFilters": false,
+            "grenadeCaseRemoveFilters": false,
+            "injectorCaseRemoveFilters": false,
+            "keyToolRemoveFilters": false,
+            "luckyScavCaseRemoveFilters": false,
+            "medicineCaseRemoveFilters": false,
+            "mrHolodilnickRemoveFilters": false,
+            "moneyCaseRemoveFilters": false,
+            "siccCaseRemoveFilters": false,
+            "simpleWalletRemoveFilters": false,
+            "thiccItemCaseRemoveFilters": false,
+            "thiccWeaponCaseRemoveFilters": false,
+            "wzWalletRemoveFilters": false
         },
         "secure":
         {
